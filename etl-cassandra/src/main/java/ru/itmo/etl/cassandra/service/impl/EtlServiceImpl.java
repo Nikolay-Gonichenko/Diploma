@@ -33,8 +33,8 @@ public class EtlServiceImpl implements EtlService {
     @Override
     public void start() {
         System.out.println("Запрос пришёл");
-        var pageSize = 1000;
-        var pageNumber = 70030;
+        var pageSize = 200;
+        var pageNumber = 70031;
 
         System.out.println("Выполнен стартовый запрос к ticketRepository");
         var ticketPage = ticketRepository.findAll(PageRequest.of(pageNumber, pageSize));
