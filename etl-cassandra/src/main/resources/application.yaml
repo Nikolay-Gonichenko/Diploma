@@ -1,0 +1,19 @@
+server:
+  port: 8205
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/diploma
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  cassandra:
+    keyspace-name: diploma
+    port: 9042
+    contact-points: localhost
+    local-datacenter: datacenter1
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+
+

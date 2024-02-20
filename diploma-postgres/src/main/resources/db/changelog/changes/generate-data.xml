@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="generate-documents-table" author="postgres">
+        <sqlFile path="sql/generate-documents-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="generate-accounts-table" author="postgres">
+        <sqlFile path="sql/generate-accounts-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="generate-options-table" author="postgres">
+        <sqlFile path="sql/generate-options-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>

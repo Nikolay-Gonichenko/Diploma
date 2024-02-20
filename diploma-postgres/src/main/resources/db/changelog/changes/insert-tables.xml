@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="insert-document_type-table" author="postgres">
+        <sqlFile path="sql/insert-document_type-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-flight_status-table" author="postgres">
+        <sqlFile path="sql/insert-flight_status-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-roles-table" author="postgres">
+        <sqlFile path="sql/insert-roles-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-violation_type-table" author="postgres">
+        <sqlFile path="sql/insert-violation_type-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-option_type-table" author="postgres">
+        <sqlFile path="sql/insert-option_type-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-error_type-table" author="postgres">
+        <sqlFile path="sql/insert-error_type-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-banned_reason-table" author="postgres">
+        <sqlFile path="sql/insert-banned_reason-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-planes-table" author="postgres">
+        <sqlFile path="sql/insert-planes-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-locations-table" author="postgres">
+        <sqlFile path="sql/insert-locations-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-departments-table.sql" author="postgres">
+        <sqlFile path="sql/insert-departments-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-positions-table" author="postgres">
+        <sqlFile path="sql/insert-positions-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="insert-init-tables" author="postgres">
+        <sqlFile path="sql/insert-init-tables.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>
