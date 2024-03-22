@@ -32,3 +32,12 @@ services:
       - 'HEAP_NEWSIZE=2G'
     ports:
       - "9042:9042"
+
+
+  greenplum-db:
+    image: andruche/greenplum:7
+    container_name: greenplum-container
+    environment:
+      - 'GPDB_DATABASE=diploma'
+    ports:
+      - "5432:5432"

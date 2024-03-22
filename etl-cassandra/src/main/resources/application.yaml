@@ -1,5 +1,5 @@
 server:
-  port: 8205
+  port: 8183
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/diploma

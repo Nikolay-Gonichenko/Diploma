@@ -12,7 +12,6 @@ import ru.itmo.etl.cassandra.load.model.ProfitableFlightsRoutes;
 import ru.itmo.etl.cassandra.load.model.pk.ProfitableFlightsRoutesPK;
 import ru.itmo.etl.cassandra.load.repository.ProfitableFlightsRoutesRepository;
 import ru.itmo.etl.cassandra.load.util.TicketUtil;
-import ru.itmo.etl.cassandra.service.CassandraEtlService;
 
 import java.util.List;
 

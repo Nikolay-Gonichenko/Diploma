@@ -31,8 +31,7 @@ public class OptionsByFlightsTimePK implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof OptionsByFlightsTimePK)) return false;
-        OptionsByFlightsTimePK that = (OptionsByFlightsTimePK) o;
+        if (!(o instanceof OptionsByFlightsTimePK that)) return false;
         return Objects.equals(getFlight(), that.getFlight()) && Objects.equals(getHuman(), that.getHuman()) && Objects.equals(getOption(), that.getOption()) && Objects.equals(getFlightTime(), that.getFlightTime());
     }
 
